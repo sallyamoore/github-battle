@@ -12,8 +12,8 @@ var routes = (
   <Router history={hashHistory}>
     <Route path='/' component={Main} >
       <IndexRoute component={Home} />
-      <Route path='playerOne' component={PromptContainer} />
-      <Route path='playerTwo/:playerOne' component={PromptContainer} />
+      <Route path='playerOne' header='Player One' component={PromptContainer} />
+      <Route path='playerTwo/:playerOne' header='Player Two' component={PromptContainer} />
     </Route>
   </Router>
 );
@@ -21,4 +21,4 @@ var routes = (
 module.exports = routes;
 
 // Note: I can only get routes to work if I use this format: http://localhost:8080/#/playerOne?_k=3fq9j1
-// stopped 3:40 into Stateless Functional components video
+// stopped 13:12 into Stateless Functional components video
