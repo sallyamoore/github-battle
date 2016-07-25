@@ -21,4 +21,3 @@ var routes = (
 module.exports = routes;
 
 // Note: I can only get routes to work if I use this format: http://localhost:8080/#/playerOne?_k=3fq9j1
-// stopped 13:12 into Stateless Functional components video
