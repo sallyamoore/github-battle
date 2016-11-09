@@ -37,4 +37,4 @@ Prompt.propTypes = {
     username: PropTypes.string.isRequired
 }
 
-module.exports = Prompt
+module.exports = Prompt;
